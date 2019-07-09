@@ -602,7 +602,7 @@ or default value can be changed in initializer:
 
 ```erb
 # config/initializers/bootstrap_form.rb
-module BootstrapForm
+module Bootstrap4Form
   class FormBuilder
     def default_label_col
       'col-sm-4'
