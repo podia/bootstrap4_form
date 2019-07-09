@@ -52,6 +52,8 @@ module Bootstrap4Form
         options[:layout] == :inline &&
           options[:html][:class] = [options[:html][:class], "form-inline"].compact.join(" ")
 
+        options[:html][:class] = "#{options[:html][:class]} bootstrap4-form".strip
+
         options
       end
 
