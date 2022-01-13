@@ -33,7 +33,7 @@ module Bootstrap4Form
         options = process_options(options)
 
         with_bootstrap4_form_field_error_proc do
-          form_with(options, &block)
+          form_with(**options, &block)
         end
       end
 
